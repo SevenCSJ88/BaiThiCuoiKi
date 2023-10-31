@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  border: 1px solid;
+}
+.buttons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+input[type="text"] {
+  width: 300px;
+  border: 1px solid black;
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 30px;
+}
+.add-btn {
+  background-color: blue;
+  margin: 5px;
+}
+.delete-btn {
+  margin-top: 10px;
+  background-color: red;
+  margin-left: 300px;
+}
+.TodoList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.completed {
+  color: blue;
+  text-decoration: line-through;
+}
